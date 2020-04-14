@@ -1,255 +1,5 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/turf/open/floor/plating,
-/area/space)
-"b" = (
-/obj/machinery/light,
-/obj/machinery/status_display/supply{
-	pixel_y = -30
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/turf/open/floor/plating,
-/area/space)
-"c" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/space)
-"d" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/plasteel,
-/area/space)
-"g" = (
-/turf/open/space/basic,
-/area/space)
-"k" = (
-/obj/machinery/atmospherics/pipe/simple,
-/turf/open/floor/plasteel,
-/area/space)
-"l" = (
-/turf/open/floor/plasteel,
-/area/space)
-"m" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/machinery/door/airlock/external{
-	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/space)
-"n" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/space)
-"o" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"p" = (
-/obj/machinery/advanced_airlock_controller{
-	pixel_y = 24
-	},
-/turf/open/floor/plating,
-/area/space)
-"s" = (
-/obj/machinery/atmospherics/components/unary/portables_connector{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"u" = (
-/obj/machinery/advanced_airlock_controller{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/open/floor/plating,
-/area/space)
-"v" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/space/nearstation)
-"y" = (
-/obj/structure/plasticflaps,
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "QMLoad2"
-	},
-/turf/open/floor/plating,
-/area/space)
-"A" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/machinery/door/airlock/external{
-	name = "Supply Dock Airlock";
-	req_access_txt = "31"
-	},
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/space)
-"B" = (
-/turf/closed/wall,
-/area/space)
-"C" = (
-/obj/structure/sign/warning/vacuum/external,
-/obj/effect/spawner/structure/window/reinforced/shutter,
-/obj/structure/sign/warning/vacuum/external,
-/obj/effect/spawner/structure/window/reinforced/shutter,
-/turf/open/floor/plating,
-/area/space)
-"D" = (
-/obj/machinery/portable_atmospherics/canister/air,
-/obj/machinery/atmospherics/components/unary/portables_connector,
-/turf/open/floor/plasteel,
-/area/space)
-"E" = (
-/obj/structure/sign/warning/vacuum/external,
-/obj/effect/spawner/structure/window/reinforced/shutter,
-/turf/open/floor/plating,
-/area/space)
-"F" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "QMLoad2"
-	},
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor2";
-	name = "supply dock loading door"
-	},
-/turf/open/floor/plating,
-/area/space)
-"L" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
-/turf/open/floor/plasteel,
-/area/space)
-"M" = (
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"N" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
-"P" = (
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/obj/machinery/door/poddoor{
-	id = "QMLoaddoor";
-	name = "supply dock loading door"
-	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/turf/open/floor/plating,
-/area/space)
-"R" = (
-/obj/effect/spawner/structure/window/reinforced/shutter,
-/turf/open/floor/plating,
-/area/space)
-"S" = (
-/obj/structure/plasticflaps,
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/obj/structure/plasticflaps,
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "QMLoad"
-	},
-/turf/open/floor/plating,
-/area/space)
-"T" = (
-/obj/machinery/atmospherics/pipe/manifold{
-	dir = 4
-	},
-/obj/machinery/meter{
-	target_layer = 2
-	},
-/turf/open/floor/plasteel,
-/area/space)
-"U" = (
-/obj/effect/spawner/structure/window/reinforced/shutter,
-/turf/closed/wall,
-/area/space)
-"V" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 5;
-	height = 7;
-	id = "supply_home";
-	name = "Cargo Bay";
-	width = 12
-	},
-/turf/open/space/basic,
-/area/space)
-"X" = (
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "QMLoad2"
@@ -266,13 +16,299 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
+/area/quartermaster/storage)
+"c" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"d" = (
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"e" = (
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/cable_coil/blue,
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"f" = (
+/obj/item/storage/toolbox/electrical,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"g" = (
+/turf/open/space/basic,
 /area/space)
-"Z" = (
+"h" = (
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door"
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door"
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"i" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"j" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"k" = (
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stock_parts/micro_laser/high,
+/obj/item/stock_parts/capacitor,
+/obj/item/stock_parts/matter_bin,
+/obj/item/circuitboard/machine/pacman,
+/obj/item/stock_parts/matter_bin,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"l" = (
+/obj/machinery/advanced_airlock_controller{
+	pixel_y = 24
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"m" = (
+/obj/machinery/light,
+/obj/machinery/status_display/supply{
+	pixel_y = -30
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"n" = (
 /obj/machinery/atmospherics/pipe/manifold{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"q" = (
+/obj/item/circuitboard/machine/circuit_imprinter,
+/obj/item/circuitboard/computer/research,
+/obj/item/reagent_containers/glass/beaker,
+/obj/item/reagent_containers/glass/beaker,
+/obj/item/stock_parts/manipulator,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"r" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor2";
+	name = "supply dock loading door"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"s" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/atmospherics/components/unary/portables_connector,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"t" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"u" = (
+/turf/closed/wall,
+/area/quartermaster/storage)
+"v" = (
+/obj/structure/lattice,
+/turf/open/space,
+/area/space/nearstation)
+"w" = (
+/obj/structure/sign/warning/vacuum/external,
+/obj/effect/spawner/structure/window/reinforced/shutter,
+/obj/structure/sign/warning/vacuum/external,
+/obj/effect/spawner/structure/window/reinforced/shutter,
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"y" = (
+/obj/effect/spawner/structure/window/reinforced/shutter,
+/turf/closed/wall,
+/area/quartermaster/storage)
+"B" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"C" = (
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"G" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"H" = (
+/obj/effect/spawner/structure/window/reinforced/shutter,
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"J" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"K" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"L" = (
+/obj/machinery/atmospherics/pipe/simple{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"M" = (
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door"
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door"
+	},
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"N" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
 /area/space)
+"P" = (
+/obj/machinery/atmospherics/pipe/simple,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"Q" = (
+/obj/machinery/atmospherics/pipe/manifold{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
+"U" = (
+/obj/machinery/advanced_airlock_controller{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"V" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 5;
+	height = 7;
+	id = "supply_home";
+	name = "Cargo Bay";
+	width = 12
+	},
+/turf/open/space/basic,
+/area/space)
+"W" = (
+/obj/structure/sign/warning/vacuum/external,
+/obj/effect/spawner/structure/window/reinforced/shutter,
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"X" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"Y" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31"
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/quartermaster/storage)
+"Z" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 
 (1,1,1) = {"
 g
@@ -35094,13 +35130,13 @@ g
 g
 g
 g
-E
-F
-A
-E
-A
-P
-C
+W
+r
+Y
+W
+Y
+h
+w
 g
 g
 g
@@ -35351,13 +35387,13 @@ g
 g
 g
 g
-U
 y
+t
+U
 u
+l
 B
-p
-S
-R
+H
 g
 g
 g
@@ -35608,13 +35644,13 @@ g
 g
 g
 g
-U
+y
+a
 X
-m
-n
-m
-c
-R
+j
+X
+M
+H
 g
 g
 g
@@ -35865,13 +35901,13 @@ g
 g
 g
 g
-U
-l
-l
-l
-l
-a
-R
+y
+C
+C
+C
+C
+c
+H
 g
 g
 g
@@ -36122,13 +36158,13 @@ g
 g
 N
 N
-B
-l
-l
-l
-l
-b
-B
+u
+f
+C
+C
+C
+m
+u
 v
 v
 g
@@ -36379,13 +36415,13 @@ g
 g
 g
 g
-U
-l
-d
-l
-l
-a
-R
+y
+K
+G
+C
+C
+c
+H
 g
 g
 g
@@ -36636,13 +36672,13 @@ g
 g
 g
 g
-U
-l
-l
-l
-l
-a
-R
+y
+e
+C
+C
+C
+c
+H
 g
 g
 g
@@ -36893,13 +36929,13 @@ g
 g
 g
 g
-U
-l
-l
-l
-l
-a
-R
+y
+i
+C
+C
+C
+c
+H
 g
 g
 g
@@ -37148,17 +37184,17 @@ g
 g
 g
 g
-B
-B
-B
-D
-k
-Z
-k
+u
+u
+u
 s
-B
-B
-B
+P
+n
+P
+d
+u
+u
+u
 g
 g
 g
@@ -37405,17 +37441,17 @@ g
 g
 g
 g
-R
-l
-l
-l
-l
-M
-l
-l
-l
-l
-R
+H
+q
+C
+C
+C
+L
+C
+C
+C
+k
+H
 g
 g
 g
@@ -37662,17 +37698,17 @@ g
 g
 g
 g
-R
-L
-k
-k
-k
-T
-k
-k
-k
-o
-R
+H
+Z
+P
+P
+P
+Q
+P
+P
+P
+J
+H
 g
 g
 g
@@ -37919,17 +37955,17 @@ g
 g
 g
 g
-R
-l
-l
-l
-l
-l
-l
-l
-l
-l
-R
+H
+C
+C
+C
+C
+C
+C
+C
+C
+C
+H
 g
 g
 g
@@ -38176,17 +38212,17 @@ g
 g
 g
 g
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
 g
 g
 g
