@@ -50,6 +50,9 @@ endmap
 map multiz_debug
 endmap
 
+map nonstation
+endmap
+
 map eclipsestation
 	voteweight 0
 endmap
